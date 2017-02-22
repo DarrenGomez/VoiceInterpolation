@@ -2,9 +2,9 @@
 
 Requirements:
 In order to run this project, you must have:
-Matlab
-Java Processing
-'Minim' Package in Processing
+Matlab\n
+Java Processing\n
+'Minim' Package in Processing\n
 
 The Idea:
 This project is the interpolation of a sound wave. Interpolation of a sound wave is a way of 'enhancing' the audio to make it better than it actually is. This project attempts to bypass the restrictions of the sample rate of the wave. For better explanation of how interpolation works and why it is useful, reference https://alpha-ii.com/Info/AudioInt.html.
