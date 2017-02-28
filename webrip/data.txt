@@ -1,4 +1,4 @@
-dictionary cambridge macmillan oxford
+dictionary cambridge macmillan oxford freedict collins
 dog
 face
 red
