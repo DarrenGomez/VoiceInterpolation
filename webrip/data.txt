@@ -1,2 +1,6 @@
-dictionary
+dictionary cambridge macmillan oxford
 dog
+face
+red
+word
+cat
