@@ -34,16 +34,49 @@ def grabSoundDict(word):
                 end = rawStr.index("mp3") + 3
 
             refinedStr = rawStr[start:end]
-            urlretrieve(refinedStr, "sounds/" + str(word) + ".mp3")
+            urlretrieve(refinedStr, "sounds/" + str(word) + "-dictionary.mp3")
             
         else:
             print("No match")
 
-def grabSounds(words):
+def grabSounds(words, site):
 
-    for word in words:
-        grabSound(word)
+    if(site == "dictionary"):
+        for word in words:
+            grabSoundDict(word)
+    else:
+        print("Site not found: " + site)
+
+def detectWebsites(file):
+    with open(file) as f:
+        sites = f.readline().split()
+        words = f.read().split()
+        for site in sites:
+            grabSounds(words, site)
+        
+detectWebsites("data.txt")
+
 
 #grabSounds(["red", "apple", "face", "late", "lateness"])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
 
         

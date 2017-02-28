@@ -1,2 +1,2 @@
-dictionary webster
+dictionary
 dog
