@@ -7,4 +7,6 @@ n = 3; %number of interpolated points between control points
 %higher mesh sizes will have more data to analyze but will be
 %computationally expensive
 
-createInterpolation(fileName, n);
+M = createInterpolation(fileName, 3);
+
+dlmwrite('outFile.txt',M,'delimiter',' ','precision',6)
