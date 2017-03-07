@@ -1,0 +1,6 @@
+dictionary cambridge macmillan oxford freedict collins
+dog
+face
+red
+word
+cat
